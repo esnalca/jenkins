@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="97.524095">
+<testcase classname="CAPAS MULTISELECT" name="GRUPO CIUDAD" time="37.364008">
+<system-out><![CDATA[Given inicio sesión en la página del cliente de IkMaps......................passed
+When voy al grupo de capas "ciudad".........................................passed
+And pulso el botón de capas.................................................passed
+Then veo sólamente las "PADRE 2, PADRE 1, MOVILIDAD PEATONAL, MOVILIDAD CICLISTA" que pertenecen al grupo.passed
+]]></system-out>
+</testcase>
+<testcase classname="CAPAS MULTISELECT" name="GRUPO CIUDAD 2" time="30.246937">
+<system-out><![CDATA[Given inicio sesión en la página del cliente de IkMaps......................passed
+When voy al grupo de capas "edificio".......................................passed
+And pulso el botón de capas.................................................passed
+Then veo sólamente las "PLANTA PRINCIPAL, PLANTA SALIDAS, PLANTA LLEGADAS" que pertenecen al grupo.passed
+]]></system-out>
+</testcase>
+<testcase classname="CAPAS MULTISELECT" name="GRUPO CIUDAD 3" time="29.91315">
+<system-out><![CDATA[Given inicio sesión en la página del cliente de IkMaps......................passed
+When voy al grupo de capas "comunidad"......................................passed
+And pulso el botón de capas.................................................passed
+Then veo sólamente las "PLANTA PRINCIPAL, PLANTA SALIDAS, MOVILIDAD PEATONAL, PLANTA LLEGADAS, MOVILIDAD CICLISTA" que pertenecen al grupo.passed
+]]></system-out>
+</testcase>
+</testsuite>
